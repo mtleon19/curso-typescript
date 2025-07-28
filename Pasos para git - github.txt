@@ -32,6 +32,13 @@ node src/demo.js ---- correr el file transpilado .js xq no tiene tsconfig
 
 
 
+=========================================================================
+
+Si no tienes el repositorio en tu máquina local, necesitas:
+✅ git clone: git clone https://github.com/mtleon19/curso-typescript.git
+
+Si ya lo tienes clonado y solo quieres actualizarlo:
+✅ git pull: git pull origin master
 
 
 
