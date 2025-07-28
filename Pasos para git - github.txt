@@ -40,8 +40,8 @@ Si no tienes el repositorio en tu máquina local, necesitas:
 Si ya lo tienes clonado y solo quieres actualizarlo:
 ✅ git pull: git pull origin master
 
-
-
+=========================================================================
+Cambiar el user.name y user.email NO cambia el usuario con el que haces push.
 
 
 
