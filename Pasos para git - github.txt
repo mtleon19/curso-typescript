@@ -1,0 +1,40 @@
+git init
+git  config user.name
+git  config user.email
+git status 
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/mtleon19/curso-typescript.git
+git push -u origin master
+
+
+
+git remote -v ---- Verifica el remoto actual
+
+Verás algo así:
+origin  https://github.com/mtleon19/cursos.git (fetch)
+origin  https://github.com/mtleon19/cursos.git (push)
+
+git remote set-url origin https://github.com/mtleon19/curso-typescript.git ---- Cambia el URL del remoto origin para que apunte al repo correcto
+
+=========================================================================
+
+npm i -D typescript ---- instalar TS localmente y no global
+npx tsc --version
+npx tsc --init
+npm i ts-node -D
+
+
+npx tsc ---- transpilar el archivo
+npx tsc --watch ---- transpilar en automatico todos los archivos que se crean
+npx ts-node src/demo.ts ---- correr el archivo ts por el tsconfig
+node src/demo.js ---- correr el file transpilado .js xq no tiene tsconfig
+
+
+
+
+
+
+
+
+
